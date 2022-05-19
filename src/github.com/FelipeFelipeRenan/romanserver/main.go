@@ -33,6 +33,7 @@ func main() {
 		}
 
 	})
+	fmt.Println("rodando")
 
 	// criar um servidor e subir na porta 8000
 	s := &http.Server{
